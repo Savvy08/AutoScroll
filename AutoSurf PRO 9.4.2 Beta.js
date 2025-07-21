@@ -17,9 +17,7 @@
     function loadSettings() {
         return {
             siteList: JSON.parse(localStorage.getItem("autosurf_sites") || "[]") || [
-                "https://rutube.ru", "https://www.nytimes.com", "https://www.theguardian.com",
-                "https://www.washingtonpost.com", "https://www.reuters.com", "https://www.bloomberg.com",
-                "https://www.forbes.com", "https://www.rt.com", "https://lenta.ru", "https://ria.ru"
+                "https://www.awwwards.com/websites/scrolling/", "https://scroll-tool.ru/", "https://www.awwwards.com/websites/" //добавление сайтов через запятую
             ],
             minTime: parseInt(localStorage.getItem("autosurf_minTime") || "60000"),
             maxTime: parseInt(localStorage.getItem("autosurf_minTime") || "60000") + 30000,
