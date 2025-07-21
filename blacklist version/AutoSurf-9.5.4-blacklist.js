@@ -2,7 +2,7 @@
 // @name         AutoSurf PRO 9.5.4 blacklist
 // @namespace    http://tampermonkey.net/
 // @version      9.5.4-blacklist
-// @description  Автосёрфинг: защита от пустого списка, дублирующихся сайтов и некорректного индекса
+// @description  Автосёрфинг: защита от пустого списка, дублирующихся сайтов и некорректного индекса, добавлен черный список доменов
 // @match        *://*/*
 // @grant        GM_registerMenuCommand
 // @grant        GM_setValue
