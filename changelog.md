@@ -1,7 +1,58 @@
 ## 🗂️ **Changelog AutoSurf PRO**
 
+
 ---
 
+### 🧠 **v9.5.4 Beta**
+
+* 🧼 Fixed the "Site 0 of 0" error after inserting or importing sites  
+* 🔄 Added automatic cleanup:
+  * 🧹 Removes empty lines and duplicate entries from the site list  
+  * 🔁 Resets index to `0` if site is not found or list is empty  
+  * ♻️ Restores default site list if import or insertion is invalid  
+* ✅ Changing the site list now always resets to the first site  
+
+---
+
+### 🧩 **v9.5.3 Beta**
+
+* 📘 Added **Collapse/Expand** button to the UI panel  
+* 🧠 UI panel state (collapsed or expanded) is now preserved across reloads  
+
+---
+
+### 🚫 **v9.5.2 Beta**
+
+* 🕳️ Introduced **Blacklist** feature:
+  * ❌ Script does not activate on blacklisted sites  
+  * 🖱 Blacklist edit button in UI is clickable again  
+* 🧊 All features (clicks, scrolling, transitions) are disabled on blacklisted domains  
+
+---
+
+### 🔧 **v9.5.1 Beta**
+
+* 🐞 Fixed bug: default site list was not restored after reset  
+* ♻️ Reset now returns all settings and sites to factory defaults  
+
+---
+
+### 🛠️ **v9.5.0 Beta**
+
+* 🆕 Added two new Tampermonkey menu buttons:
+  * ♻️ **Reset** — clears all settings to factory defaults  
+  * 🔄 **Reload** — restarts the script with fresh settings  
+* 🧹 Reset now clears all values from `localStorage` and `GM_setValue`  
+
+---
+
+### 🧱 **v9.4.3 Beta**
+
+* 🔁 Fixed infinite loop in autoscroll and click emulation  
+* 📋 All buttons and menus are retained  
+* ✅ Base autosurf functionality is working smoothly  
+
+---
 ### 🧠 **v9.4.2**✅ Stable
 
 * 🐞 Fixed a bug with progress after a random click ("Site 1 of 0" no longer appears)
