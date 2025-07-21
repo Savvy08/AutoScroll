@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         AutoSurf PRO 9.4.2 Beta
+// @name         AutoSurf PRO 9.4.2
 // @namespace    http://tampermonkey.net/
 // @version      9.4.2-beta
 // @description  Автосёрфинг с UI, фикс прогресса после рандомного клика, исправленный таймер рандомного клика, Tampermonkey-меню
